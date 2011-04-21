@@ -1,0 +1,30 @@
+Inserting into mongoDB
+
+one = {"Name": "Bulbasaur", "Abilities": "Overgrow", "Number": "1"}
+two = {"Name": "Ivysaur", "Abilities": "Overgrow", "Number": "2"}
+three = {"Name": "Venusaur", "Abilities": "Overgrow", "Number": "3"}
+four = {"Name": "Charmander", "Abilities": "Blaze", "Number":"4"}
+five = {"Name": "Charmeleon", "Abilities": "Blaze", "Number":"5"}
+six =  {"Name": "Charizard", "Abilities": "Blaze", "Number":"6"}
+seven = {"Name": "Squirtle", "Abilities": "Torrent", "Number": "7"}
+eight = five = {"Name": "Wartortle", "Abilities": "Torrent", "Number":"8"}
+nine =  {"Name": "Blastoise", "Abilities": "Torrent", "Number":"9"}
+ten = {"Name": "Caterpie", "Abilities": "Shield Dust", "Number": "10"}
+eleven = {"Name": "Metapod", "Abilities": "Shed Skin", "Number": "11"}
+twelve = {"Name": "Butterfree", "Abilities": "Compound Eyes", "Number": "12"}
+thirteen = {"Name": "Weedle", "Abilities": "Shield Dust", "Number": "13"}
+fourteen = {"Name": "Kakuna", "Abilities": "Shed Skin", "Number": "14"}
+fifteen = {"Name": "Beedrill", "Abilities": "Swarm", "Number": "15"}
+sixteen = {"Name": "Pidgey", "Abilities": "Keen Eye, Tangled Feet", "Number": "16"}
+seventeen = {"Name": "Pidgeotto", "Abilities": "Keen Eye, Tangled Feet", "Number": "17"}
+eighteen = {"Name": "Pidgeot", "Abilities": "Keen Eye, Tangled Feet", "Number": "18"}
+nineteen= {"Name": "Rattata", "Abilities": "Run Away, Guts", "Number": "19"}
+twenty = {"Name": "Raticate", "Abilities": "Run Away, Guts", "Number": "20"}
+twentyone = {"Name": "Spearow", "Abilities": "Keen Eye", "Number": "21"}
+twentytwo = {"Name": "Fearow", "Abilities": "Keen Eye", "Number": "22"}
+twentythree = {"Name": "Ekans", "Abilities": "Shed Skin, Intimidate", "Number": "23"}
+twentyfour = {"Name": "Arbok", "Abilities": "Shed Skin, Intimidate", "Number": "24"}
+twentyfive = {"Name": "Pikachu", "Abilities": "Static", "Number": "25"}
+twentysix = {"Name": "Raichu", "Abilities": "Static", "Number": "26"}4
+
+It's only allowing me to save up to number 20

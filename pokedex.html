@@ -1,0 +1,35 @@
+<?php
+SESSION_START();
+?>
+
+<html>
+
+<head>
+
+</head>
+<body>
+
+
+<?php
+// c o n n e c t
+$m = new Mongo();
+
+$db = $m->pokedex;
+echo $m;
+
+$collection = $db->pokemon;
+<br>
+
+$cursor = $collection->find();
+// iterate through the results
+foreach ($cursor as $obj) {
+    echo "<h2 style=\"font-family: sans-serif\">".$obj["pokemon"] ."</h2>\n";
+    echo "<p>".$obj["name"] ." -- <i>".$obj["ability"]."</i></p>\n";
+	echo "<br/>";
+{
+
+?>
+
+
+</body>
+</html>
