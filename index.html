@@ -1,3 +1,10 @@
+<?php
+
+$connection = new Mongo();
+$connection = new Mongo( "localhost" ); // connect to a remote host (default port)
+$connection = new Mongo( "localhost:28017" ); // connect to a remote host at a given port
+
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -7,16 +14,23 @@
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
-<body>
+<body bgcolor=gold>
 <div id="introduction">
+<center>
 <b>
 <font face = Tahoma>
-This is my attempt at generating a basic and simple pokedex.
-</font>
-</b>
 <br>
- <img src = "http://www.pokemononlinegames.org/games/images/pokemon-391-l-characters.jpg" 
+This is my attempt at generating a basic and simple pokedex.
+</b>
+<br><br>
+	<img src = "http://www.pokemononlinegames.org/games/images/pokemon-391-l-characters.jpg" 
 	width = '200'/>
+	<br><br>
+	<BUTTON TYPE=SUBMIT><STRONG>POKEMON</STRONG></BUTTON>
+	<br>
+	Click the button to randomly genearte a pokemon.
+	
+	</font>
   </div>
   
 </body>
