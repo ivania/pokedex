@@ -11,6 +11,14 @@ $connection = new Mongo( "localhost:28017" ); // connect to a remote host at a g
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>POKEDEX</title>
+  <script type="text/javascript">
+  
+	function getPokemon()
+	{
+	document.getElementById("pokemon").innerHTML=Date();
+	}	
+	</script>
+	
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
@@ -21,14 +29,20 @@ $connection = new Mongo( "localhost:28017" ); // connect to a remote host at a g
 <font face = Tahoma>
 <br>
 This is my attempt at generating a basic and simple pokedex.
+
 </b>
 <br><br>
 	<img src = "http://www.pokemononlinegames.org/games/images/pokemon-391-l-characters.jpg" 
-	width = '200'/>
+	width = '200'
+	class = 'pokemon'
+	/>
 	<br><br>
-	<BUTTON TYPE=SUBMIT><STRONG>POKEMON</STRONG></BUTTON>
+	<form method="post" action="pokemon.php">
+	<BUTTON TYPE=SUBMIT ONCLICK = "/pokemon.html"><STRONG>POKEMON</STRONG></BUTTON>
 	<br>
+	</form>
 	Click the button to randomly genearte a pokemon.
+	<br>
 	
 	</font>
   </div>
